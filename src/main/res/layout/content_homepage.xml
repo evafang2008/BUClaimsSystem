@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fangfang.android.buclaimssystem.Homepage"
+    tools:showIn="@layout/activity_homepage"
+    android:background="@color/primary_light">
+    <TextView
+        android:id="@+id/fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Logout"
+        android:contextClickable="true"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        android:onClick="run"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Report new claim"
+            android:textSize="14sp"
+            android:id="@+id/btn_report_claim"
+            android:background="@color/orange"
+            android:onClick="run"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Towing Service"
+            android:textSize="14sp"
+            android:id="@+id/btn_towing"
+            android:background="@color/green"
+            android:onClick="run"/></LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Repair Center"
+            android:textSize="14sp"
+            android:id="@+id/btn_repair_center"
+            android:background="@color/yellow"
+            android:onClick="run"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Make Payment"
+            android:textSize="14sp"
+            android:id="@+id/btn_make_payment"
+            android:background="@color/pink"
+            android:onClick="run"/>
+   </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="The following claims are completed, the related car repairs are completed:"
+        android:textSize="18sp"
+        android:textColor="@color/primary_text" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/home_claimslist"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">BU Claims System</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="title_message">Be Effective to Manage Your Claims Process.</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_firstname">First Name</string>
+    <string name="prompt_lastname">Last Name</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="link_sign_up">If you are new user, please Sign Up here!</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_email">This email address does not exist in our claim system. Please sign up.</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_homepage">Home</string>
+    <string name="title_activity_signup">Sign up</string>
+    <string name="title_activity_signin">Sign in</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_report_claim">Report New Claim</string>
+    <string name="title_activity_towing_service">Towing Service</string>
+    <string name="title_activity_repair_center">Repair Center</string>
+    <string name="title_activity_bill_payment">Make Online Payment</string>
+    <string name="title_activity_confirmation_page">Claim Confirmation Information</string>
+
+    <!-- Test account information -->
+    <string name="test_account_info">
+        For testing purpose, please use the test account below:
+        \n\nfang@qq.com\\123456
+        \n\nThanks for your support!
+
+    </string>
+    <!-- Strings related to payment information-->
+    <string name="text_deductible">
+        Thank you for reporting the claim to us.
+        \n\nHere is your payment information:
+        \n\nThe default auto insurance deductible is $500.
+        \nPlease mail the check to:
+        \n\nBellevue Auto Insurance Company
+        \nAttn: (Claim number)
+        \n1000 Galvin Road South
+        \nBellevue, Nebraska 68005
+        \n\nOr you can pay online directly by \"Make Payment\" button in Homepage.
+        \n\nThis payment due date is by February. 8, 2016. Thank you for the service.
+    </string>
+    <string name="short_payment_info">
+        Thank you for reporting the claim to us.
+        \n\nHere is your payment information:
+        \n\nThe default auto insurance deductible is $500.
+        \n\nPlease select one of the following payment method to pay your deductible.
+        \n\nKind remind: this payment due date is by February 8, 2016. Thank you for the service.
+    </string>
+    <string name="title_activity_towing_details">Towing Details</string>
+    <string name="title_activity_repair_center_details">Repair Center Details</string>
+    <string name="title_activity_claim_details">ClaimDetails</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#4CAF50</color>
+<!-- customized color for BU Claim system  -->
+    <color name="primary_light">#BBDEFB</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="orange">#FF9800</color>
+    <color name="pink">#FFCCBC</color>
+    <color name="blue">#03A9F4</color>
+    <color name="green">#8BC34A</color>
+    <color name="yellow">#FFEB3B</color>
+
+</resources>
